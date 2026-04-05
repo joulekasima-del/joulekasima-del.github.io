@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Marketing Specialist — Sinuslabs</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet" />
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #0b0b0a;
+  --text: #d9d5ce;
+  --muted: #525049;
+  --dim: #302e2b;
+  --accent: #b8954a;
+  --red-dim: #5c2a26;
+}
+
+html {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'DM Mono', monospace;
+  font-size: 13px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  max-width: 580px;
+  margin: 0 auto;
+  padding: 72px 24px 100px;
+}
+
+/* ── HEADER ── */
+header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 80px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--dim);
+}
+.logo { font-size: 13px; color: var(--muted); }
+.status { font-size: 11px; color: var(--accent); letter-spacing: 0.1em; }
+
+/* ── TITLE ── */
+.title-block { margin-bottom: 56px; }
+h1 {
+  font-size: 24px;
+  font-weight: 300;
+  color: var(--text);
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+.hook {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+/* ── SECTIONS ── */
+section { margin-bottom: 48px; }
+
+.section-label {
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  color: var(--accent);
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 16px;
+}
+
+p {
+  font-size: 13px;
+  color: var(--text);
+  margin-bottom: 6px;
+}
+p:last-child { margin-bottom: 0; }
+
+/* ── LISTS ── */
+ul { list-style: none; }
+
+.plain-list li {
+  font-size: 13px;
+  color: var(--text);
+  padding: 9px 0;
+  border-bottom: 1px solid var(--dim);
+  padding-left: 16px;
+  position: relative;
+}
+.plain-list li:first-child { border-top: 1px solid var(--dim); }
+.plain-list li::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  color: var(--muted);
+}
+
+.filter-list li {
+  font-size: 13px;
+  color: var(--muted);
+  padding: 9px 0;
+  border-bottom: 1px solid var(--dim);
+  padding-left: 16px;
+  position: relative;
+}
+.filter-list li:first-child { border-top: 1px solid var(--dim); }
+.filter-list li::before {
+  content: '×';
+  position: absolute;
+  left: 0;
+  color: var(--red-dim);
+}
+
+/* ── APPLY ── */
+.apply-block {
+  border: 1px solid var(--dim);
+  padding: 24px;
+}
+.apply-email {
+  display: block;
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--text);
+  text-decoration: none;
+  margin-bottom: 20px;
+  letter-spacing: -0.01em;
+}
+.apply-email:hover { color: var(--accent); }
+.apply-list {
+  list-style: none;
+  border-top: 1px solid var(--dim);
+  padding-top: 16px;
+}
+.apply-list li {
+  font-size: 12px;
+  color: var(--muted);
+  padding: 4px 0;
+  padding-left: 14px;
+  position: relative;
+}
+.apply-list li::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: var(--dim);
+}
+
+</style>
+</head>
+<body>
+
+<header>
+  <span class="logo">sinuslabs</span>
+  <span class="status">open position</span>
+</header>
+
+<div class="title-block">
+  <h1>Marketing Specialist</h1>
+  <p class="hook">One hire. Full ownership. No team behind you.</p>
+</div>
+
+<section>
+  <span class="section-label">Company</span>
+  <p>Open-source audio plugins. Electronic, heavy, experimental. Used by producers and sound designers globally.</p>
+  <p>New tools in development. This is the right moment to be here.</p>
+</section>
+
+<section>
+  <span class="section-label">Role</span>
+  <p>First and only marketing hire. You execute directly with the founder. No agency, no delegation.</p>
+</section>
+
+<section>
+  <span class="section-label">What you do</span>
+  <ul class="plain-list">
+    <li>Produce high-quality product videos. Not screen recordings.</li>
+    <li>Write all copy — product pages, emails, changelogs, posts.</li>
+    <li>Plan and run campaigns solo, start to finish.</li>
+    <li>Own product launches end-to-end.</li>
+    <li>Maintain and update the website.</li>
+  </ul>
+</section>
+
+<section>
+  <span class="section-label">Requirements</span>
+  <ul class="plain-list">
+    <li>Based in or connected to the European audio / developer scene.</li>
+    <li>Uses audio software seriously — not a spectator.</li>
+    <li>Can produce polished video without a crew.</li>
+    <li>Has shipped marketing independently, start to finish.</li>
+    <li>Writes clearly without revision cycles.</li>
+    <li>Fluent with AI workflows and modern web tooling.</li>
+  </ul>
+</section>
+
+<section>
+  <span class="section-label">Not for you if</span>
+  <ul class="filter-list">
+    <li>Needs a team to execute.</li>
+    <li>Needs planning cycles before shipping.</li>
+    <li>Has never seriously used audio software.</li>
+    <li>Video output looks like a tutorial recording.</li>
+  </ul>
+</section>
+
+<section>
+  <span class="section-label">Apply</span>
+  <div class="apply-block">
+    <a href="mailto:hello@sinuslabs.io" class="apply-email">hello@sinuslabs.io</a>
+    <ul class="apply-list">
+      <li>3 video examples — links only</li>
+      <li>2 campaigns or launches you owned fully</li>
+      <li>One line on your relationship with audio tools</li>
+    </ul>
+  </div>
+</section>
+
+
+</body>
+</html>
